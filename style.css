@@ -1,0 +1,235 @@
+:root{
+    --header-color:#ccd6f6;
+    --main-bg-color:#0a192f;
+    --main-txt-color:#8892b0;
+    --keyword-color:#64ffda;
+    --btn-bg: #64ffdb30;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.highlights{
+    color: var(--keyword-color);
+    text-decoration: none;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn-style{
+ 
+    border: 1px solid var(--keyword-color);
+    border-radius: 4px;
+    text-decoration: none;
+    /* max-width: 200px; */
+    color: var(--keyword-color);
+    /* height: 42px; */
+    transition-duration: 150ms;
+
+}
+
+.btn-style:hover{
+    background-color: var(--btn-bg) ;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+main{
+    max-width: 70%;
+    margin: auto;
+    color:var(--main-txt-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color:var(--main-txt-color);
+    padding: 30px;
+    border-bottom: 1px solid #8892b0;
+}
+
+.logo{
+
+border: 3px solid var(--keyword-color);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-link a{
+    text-decoration: none;
+    color: var(--main-txt-color);
+    transition-duration: 150ms;
+}
+
+.resume{
+  
+width: 120px;
+}
+
+.nav-link{
+    list-style-type: none;
+    margin: 0 3rem;
+    
+}
+
+.nav-link a:hover{
+    color: var(--keyword-color);
+    cursor: pointer;
+}
+
+.hero{
+  margin: 12rem ;
+  
+display: flex;
+justify-content: center;
+flex-direction: column;
+/* align-items: center; */
+text-align: left;
+
+}
+.hero-slogan{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.hero *{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hero-personal-name{
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--header-color);
+}
+
+.learnmore-btn{
+    height: 55px;
+    width: 300px;
+    margin-top: 45px;
+}
+
+
+/* about me page here */
+h2.header{
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.profile-img-container{
+    border-radius: 12px;
+    width: 18rem;
+    height: 24rem;
+
+    border: 5px solid var(--keyword-color);
+    transition-duration: 150ms;
+
+}
+
+.profile-img-container:hover{
+background-color: var(--btn-bg);
+border-radius: 12px;
+width: 20rem;
+height: 26rem;
+
+}
+
+
+
+
+.profile-img{
+
+ border-radius: 7px;
+ width: 18rem;
+
+
+}
+
+
+.about-me-content{
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.text{
+    max-width: 50%;
+}
+
+
+
+.skills-sections{
+
+}
+
+.skills-list{
+    list-style-type: none;
+    background-color: var(--header-color);
+    padding: 30px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.skill-img img{
+    width: 150px;
+
+
+}
+
+
+.contact-me-section{
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.contact-list *{
+    color: var(--header-color);
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1.2;
+
+}
+
+.contact-list *:hover{
+    color: var(--keyword-color);
+
+}
+
+.contact-info i{
+    color: var(--keyword-color);
+    margin-right: 30px;
+}
+
+
+
+.footer{
+
+    margin-top: 100px;
+    border-top:1px solid var(--main-txt-color);
+color: var(--main-txt-color);
+
+height: 200px;
+}
